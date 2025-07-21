@@ -58,7 +58,7 @@ public class IntList {
      * IntList mySmallerList = IntList.of(1, 4, 9);
      */
     public static IntList of(int ...argList) {
-        if (argList.length == 0)
+        if (argList.length   == 0)
             return null;
         int[] restList = new int[argList.length - 1];
         System.arraycopy(argList, 1, restList, 0, argList.length - 1);
